@@ -3,6 +3,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <Header />
+    <div className="bg-[rebeccapurple] text-white px-3 py-2 rounded-md">
+      Tailwind FUNCIONA
+    </div>
+
   );
 }
