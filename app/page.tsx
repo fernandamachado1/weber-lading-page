@@ -1,11 +1,26 @@
+import { Experience } from "@/components/experience";
+import { Footer } from "@/components/footer";
 import Header from "@/components/header";
+import { Hero } from "@/components/hero";
+import { Knowledge } from "@/components/knowled";
+import { Results } from "@/components/results";
+import { Services } from "@/components/services";
+import { Testimonial } from "@/components/testimonial";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[rebeccapurple] text-white px-3 py-2 rounded-md">
-      Tailwind FUNCIONA
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <Experience />
+      <Services />
+      <Results />
+      <Testimonial />
+      <Knowledge />
+      {/* <ContactForm /> */}
+      <Footer />
+    </>
 
   );
 }
