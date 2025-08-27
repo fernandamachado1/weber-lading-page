@@ -22,7 +22,7 @@ export const Testimonial = () => {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white/95 backdrop-blur-sm p-8 lg:p-12 rounded-2xl shadow-2xl">
             <div className="text-center">
-              <div className="text-6xl lg:text-8xl text-weber-orange mb-6">"</div>
+              <div className="text-6xl lg:text-8xl text-weber-orange mb-6">&quot;</div>
               <blockquote className="text-xl lg:text-2xl text-weber-navy font-medium leading-relaxed mb-8 italic">
                 Trago para a sua operação as melhores práticas e ferramentas usadas em grandes empresas, 
                 democratizando o acesso a soluções logísticas de alto nível de forma simples, acessível e 
