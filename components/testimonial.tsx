@@ -1,4 +1,4 @@
-// import warehouseHero from "@/assets/warehouse-hero.jpg";
+import logistic from "@/assets/logistic.jpg";
 
 export const Testimonial = () => {
   return (
@@ -6,7 +6,7 @@ export const Testimonial = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        // style={{ backgroundImage: `url(${warehouseHero})` }}
+        style={{ backgroundImage: `url(${logistic.src})` }}
       >
         <div className="absolute inset-0 bg-weber-navy/80"></div>
       </div>

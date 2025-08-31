@@ -59,8 +59,7 @@ export const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            FORTALECENDO<br />
-            SUA LOGÍSTICA
+            SERVIÇOS OFERECIDOS
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-weber-orange to-yellow-400 mx-auto rounded-full"></div>
         </div>
@@ -72,19 +71,18 @@ export const Services = () => {
               className="group hover:scale-[1.02] transition-all duration-300 border-0 shadow-xl hover:shadow-2xl overflow-hidden"
             >
               <CardContent className="p-0 relative">
-                <div className="bg-gradient-to-br from-weber-light-blue via-weber-navy to-weber-navy text-white p-6 flex items-center gap-6 relative overflow-hidden">
-                  {/* Background pattern */}
-                  <div className="absolute right-0 top-0 w-32 h-32 bg-white/5 rounded-full transform translate-x-8 -translate-y-8"></div>
-                  <div className="absolute right-4 bottom-0 w-24 h-24 bg-white/5 rounded-full transform translate-y-8"></div>
+                <div className="bg-background text-foreground p-6 flex items-center gap-6 relative overflow-hidden">
+                  {/* <div className="absolute right-0 top-0 w-32 h-32 bg-white/5 rounded-full transform translate-x-8 -translate-y-8"></div>
+                  <div className="absolute right-4 bottom-0 w-24 h-24 bg-white/5 rounded-full transform translate-y-8"></div> */}
                   
-                  <div className="text-4xl bg-white/10 p-4 rounded-2xl backdrop-blur-sm group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-4xl bg-foreground/10 p-4 rounded-2xl backdrop-blur-sm group-hover:scale-110 transition-transform duration-300">
                     {service.icon}
                   </div>
                   <div className="flex-1 relative z-10">
-                    <h3 className="font-bold text-xl mb-2 text-white group-hover:text-yellow-300 transition-colors duration-300">
+                    <h3 className="font-bold text-xl mb-2 text-foreground group-hover:text-yellow-300 transition-colors duration-300">
                       {service.title}
                     </h3>
-                    <p className="text-white/80 text-sm leading-relaxed">{service.description}</p>
+                    <p className="text-foreground/80 text-sm leading-relaxed">{service.description}</p>
                   </div>
                 </div>
               </CardContent>

@@ -84,12 +84,6 @@ export const Knowledge = () => {
           {/* Central CTA Section */}
           <div className="relative">
             <div className="bg-gradient-to-br from-weber-navy via-weber-light-blue to-weber-orange p-12 rounded-3xl shadow-2xl text-center relative overflow-hidden">
-              {/* Background pattern */}
-              <div className="absolute inset-0 opacity-10">
-                <div className="absolute top-0 left-0 w-32 h-32 bg-white rounded-full transform -translate-x-16 -translate-y-16"></div>
-                <div className="absolute top-0 right-0 w-24 h-24 bg-white rounded-full transform translate-x-12 -translate-y-12"></div>
-                <div className="absolute bottom-0 left-1/2 w-40 h-40 bg-white rounded-full transform -translate-x-1/2 translate-y-20"></div>
-              </div>
               
               <div className="relative z-10">
                 <div className="text-7xl mb-6 animate-pulse">🧠</div>
@@ -119,9 +113,9 @@ export const Knowledge = () => {
             </div>
             
             {/* Floating decorative elements */}
-            <div className="absolute -top-6 -right-6 w-12 h-12 bg-weber-orange rounded-full animate-bounce shadow-lg"></div>
-            <div className="absolute -bottom-6 -left-6 w-8 h-8 bg-yellow-400 rounded-full animate-pulse shadow-lg"></div>
-            <div className="absolute top-1/2 -left-4 w-6 h-6 bg-weber-light-blue rounded-full animate-ping"></div>
+            {/* <div className="absolute -top-6 -right-6 w-12 h-12 bg-weber-orange rounded-full animate-bounce shadow-lg"></div> */}
+            {/* <div className="absolute -bottom-6 -left-6 w-8 h-8 bg-yellow-400 rounded-full animate-pulse shadow-lg"></div> */}
+            {/* <div className="absolute top-1/2 -left-4 w-6 h-6 bg-weber-light-blue rounded-full animate-ping"></div> */}
           </div>
         </div>
       </div>

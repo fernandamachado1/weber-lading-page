@@ -76,9 +76,9 @@ export const Results = () => {
             >
               <CardContent className="p-8 relative">
                 {/* Number indicator */}
-                <div className="absolute top-4 right-4 w-8 h-8 bg-gradient-to-br from-weber-orange to-yellow-400 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                {/* <div className="absolute top-4 right-4 w-8 h-8 bg-gradient-to-br from-weber-orange to-yellow-400 rounded-full flex items-center justify-center text-white text-sm font-bold">
                   {index + 1}
-                </div>
+                </div> */}
                 
                 <div className="flex items-start gap-4">
                   <div className="text-4xl bg-gradient-to-br from-weber-light-blue/10 to-weber-orange/10 p-4 rounded-2xl group-hover:scale-110 transition-transform duration-300">

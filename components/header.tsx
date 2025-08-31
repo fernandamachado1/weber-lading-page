@@ -34,7 +34,7 @@ export default function Header() {
     return (
         <header
             style={{
-                background: scrolled ? "var(--background)" : "transparent",
+                background: "var(--background)",
                 color: "var(--foreground)"
             }}
             className="fixed top-0 left-0 right-0 z-50 transition"
@@ -43,8 +43,10 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <div className="flex items-center gap-2">
-                        <span className="text-weber-orange text-2xl font-bold">W</span>
-                        <span className="text-weber-navy text-xl font-bold">EBER</span>
+                        <div>
+                            <span className="text-weber-orange text-2xl font-bold">W</span>
+                            <span className="text-weber-navy text-xl font-bold">EBER</span>
+                        </div>
                         <span className="text-xs text-muted-foreground hidden sm:block">
                             SOLUÇÕES EM LOGÍSTICA
                         </span>

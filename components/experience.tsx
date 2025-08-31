@@ -1,28 +1,32 @@
+import { Building2, Globe, UsersRound, Settings, ChartNoAxesCombined, SquareKanban } from "lucide-react";
+
+
 export const Experience = () => {
   const experienceAreas = [
     {
       title: "Administração de empresas",
-      icon: "🏢"
+      icon: <div className="flex justify-center"><Building2 color="#10529a" size={"30px"} /></div>
     },
     {
-      title: "Gestão de pessoas", 
-      icon: "👥"
+      title: "Gestão de pessoas",
+      icon: <div className="flex justify-center"><UsersRound color="#10529a" size={"30px"} /></div>
     },
     {
       title: "Engenharia de operações",
-      icon: "⚙️"
+      icon: <div className="flex justify-center"><Settings color="#10529a" size={"30px"} /></div>
     },
     {
       title: "Melhoria contínua",
-      icon: "📈"
+      icon: <div className="flex justify-center"><ChartNoAxesCombined color="#10529a" size={"30px"} /></div>
     },
     {
       title: "Ferramentas de gestão",
-      icon: "🛠️"
+      icon: <div className="flex justify-center"><SquareKanban color="#10529a" size={"30px"} /></div>
     },
     {
       title: "Indústrias multinacionais",
-      icon: "🌐"
+           icon: <div className="flex justify-center"><Globe color="#10529a" size={"30px"} /></div>
+
     }
   ];
 
@@ -40,7 +44,6 @@ export const Experience = () => {
         </div>
 
         <div className="max-w-5xl mx-auto">
-          {/* Badge central */}
           <div className="flex justify-center mb-16">
             <div className="bg-gradient-to-r from-weber-orange to-yellow-400 text-white px-8 py-4 rounded-2xl shadow-xl">
               <div className="text-center">
@@ -50,10 +53,9 @@ export const Experience = () => {
             </div>
           </div>
 
-          {/* Grid simples e limpo */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {experienceAreas.map((area, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center group hover:scale-105"
               >
@@ -67,14 +69,13 @@ export const Experience = () => {
             ))}
           </div>
 
-          {/* CTA simples */}
           <div className="text-center mt-16">
             <div className="bg-weber-navy text-white p-8 rounded-2xl shadow-xl max-w-3xl mx-auto">
               <h3 className="text-2xl font-bold mb-4">
                 Experiência que gera resultados reais
               </h3>
               <p className="text-lg opacity-90">
-                Cada desafio logístico que você enfrenta, eu já resolvi em alguma grande empresa. 
+                Cada desafio logístico que você enfrenta, eu já resolvi em alguma grande empresa.
                 Vamos aplicar essas soluções no seu negócio.
               </p>
             </div>
