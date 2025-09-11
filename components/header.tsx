@@ -42,14 +42,17 @@ export default function Header() {
             <div className="container mx-auto px-6">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center">
                         <div>
-                            <span className="text-weber-orange text-2xl font-bold">W</span>
-                            <span className="text-weber-navy text-xl font-bold">EBER</span>
+                            <div>
+                                <span className="text-weber-orange text-2xl font-bold">W</span>
+                                <span className="text-weber-navy text-xl font-bold">EBER</span>
+                            </div>
+                            <span className="text-xs text-muted-foreground hidden sm:block">
+                                SOLUÇÕES EM LOGÍSTICA
+                            </span>
                         </div>
-                        <span className="text-xs text-muted-foreground hidden sm:block">
-                            SOLUÇÕES EM LOGÍSTICA
-                        </span>
+
                     </div>
 
                     {/* Desktop Nav */}

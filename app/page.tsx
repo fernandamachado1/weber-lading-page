@@ -1,5 +1,6 @@
 import { Experience } from "@/components/experience";
 import { Footer } from "@/components/footer";
+import { ContactForm } from "@/components/form";
 import Header from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Knowledge } from "@/components/knowled";
@@ -18,7 +19,7 @@ export default function Home() {
       <Results />
       <Testimonial />
       <Knowledge />
-      {/* <ContactForm /> */}
+      <ContactForm />
       <Footer />
     </>
 

@@ -1,54 +1,66 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { 
+  Boxes, 
+  ClipboardList, 
+  Warehouse, 
+  Tag, 
+  Users, 
+  CalendarDays, 
+  BarChart3, 
+  Laptop, 
+  FileText, 
+  DollarSign 
+} from "lucide-react";
 
 export const Services = () => {
   const services = [
     {
-      icon: "📦",
+      icon: <Boxes />,
       title: "Controle de estoque",
       description: "Gestão eficiente de inventário"
     },
     {
-      icon: "📋",
+      icon: <ClipboardList />,
       title: "Inventário", 
       description: "Controle preciso de produtos"
     },
     {
-      icon: "🏗️",
+      icon: <Warehouse />,
       title: "Endereçamento de porta pallet",
       description: "Organização otimizada de armazenagem"
     },
     {
-      icon: "🏷️",
+      icon: <Tag />,
       title: "Layout e identificações",
       description: "Sinalização e organização visual"
     },
     {
-      icon: "👥",
+      icon: <Users />,
       title: "Ferramentas de gestão",
       description: "Sistemas para liderança eficaz"
     },
     {
-      icon: "📅",
+      icon: <CalendarDays />,
       title: "Controle de data de validade",
       description: "Gestão de prazos e qualidade"
     },
     {
-      icon: "📊",
+      icon: <BarChart3 />,
       title: "Análise de dados",
       description: "Insights para tomada de decisão"
     },
     {
-      icon: "💻",
+      icon: <Laptop />,
       title: "Customização de sistema informatizado",
       description: "Soluções tecnológicas personalizadas"
     },
     {
-      icon: "📄",
+      icon: <FileText />,
       title: "Documentos de controle",
       description: "Padronização de processos"
     },
     {
-      icon: "💰",
+      icon: <DollarSign />,
       title: "Mapear perdas, retrabalhos e prejuízos",
       description: "Identificação de oportunidades de melhoria"
     }
@@ -72,10 +84,7 @@ export const Services = () => {
             >
               <CardContent className="p-0 relative">
                 <div className="bg-background text-foreground p-6 flex items-center gap-6 relative overflow-hidden">
-                  {/* <div className="absolute right-0 top-0 w-32 h-32 bg-white/5 rounded-full transform translate-x-8 -translate-y-8"></div>
-                  <div className="absolute right-4 bottom-0 w-24 h-24 bg-white/5 rounded-full transform translate-y-8"></div> */}
-                  
-                  <div className="text-4xl bg-foreground/10 p-4 rounded-2xl backdrop-blur-sm group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-4xl text-weber-navy group-hover:text-weber-orange transition-colors duration-300 bg-foreground/10 p-4 rounded-2xl backdrop-blur-sm group-hover:scale-110 transition-transform duration-300">
                     {service.icon}
                   </div>
                   <div className="flex-1 relative z-10">

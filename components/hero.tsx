@@ -13,11 +13,11 @@ export const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-6 text-center lg:text-left">
         <div className="max-w-4xl">
-          <div className="mb-8">
+          <div className="">
             <span className="text-weber-orange text-6xl lg:text-8xl font-bold">W</span>
             <span className="text-white text-4xl lg:text-6xl font-bold">EBER</span>
           </div>
-          <p className="text-weber-orange text-lg lg:text-xl mb-8 font-medium">
+          <p className="text-weber-orange text-lg lg:text-xl mb-4 font-medium">
             SOLUÇÕES EM LOGÍSTICA
           </p>
           <h1 className="text-white text-3xl lg:text-5xl font-bold mb-6 leading-tight">
