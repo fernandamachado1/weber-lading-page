@@ -4,6 +4,7 @@ import { ContactForm } from "@/components/form";
 import Header from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Knowledge } from "@/components/knowled";
+import { PainPointsSection } from "@/components/pain";
 import { Results } from "@/components/results";
 import { Services } from "@/components/services";
 import { Testimonial } from "@/components/testimonial";
@@ -19,6 +20,7 @@ export default function Home() {
       <Results />
       <Testimonial />
       <Knowledge />
+      <PainPointsSection/>
       <ContactForm />
       <Footer />
     </>

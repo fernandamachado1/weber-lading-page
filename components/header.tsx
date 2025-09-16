@@ -9,7 +9,7 @@ const NAV = [
     { id: "experience", label: "Experiência" },
     { id: "services", label: "Serviços" },
     { id: "results", label: "Resultados" },
-    { id: "contact", label: "Contato" },
+    { id: "contact-form", label: "Contato" },
 ]
 
 export default function Header() {
@@ -61,6 +61,7 @@ export default function Header() {
                             <button
                                 key={item.id}
                                 onClick={() => scrollToSection(item.id)}
+                                style={{cursor: "pointer"}}
                                 className="text-weber-navy hover:text-weber-orange transition-colors font-medium"
                             >
                                 {item.label}
@@ -68,17 +69,16 @@ export default function Header() {
                         ))}
                     </nav>
 
-                    {/* CTA desktop */}
                     <div className="hidden md:block">
                         <Button
-                            onClick={() => scrollToSection("contact")}
+                            style={{cursor: "pointer"}}
+                            onClick={() => scrollToSection("contact-form")}
                             className="bg-gradient-to-r from-weber-orange to-red-600 text-white font-semibold"
                         >
                             Fale Conosco
                         </Button>
                     </div>
 
-                    {/* Mobile Hamburger */}
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className="md:hidden p-2 text-weber-navy"
@@ -101,7 +101,7 @@ export default function Header() {
                                 </button>
                             ))}
                             <Button
-                                onClick={() => scrollToSection("contact")}
+                                onClick={() => scrollToSection("contact-form")}
                                 className="bg-gradient-to-r from-weber-orange to-red-600 text-white font-semibold w-full"
                             >
                                 Fale Conosco
